@@ -2,10 +2,10 @@
   <!-- 弹性布局 -->
   <div class="row p-3 d-flex flex-warp justify-content-between">
     <div class="ys">
-      <form>
+      <!--<form>
         <input placeholder="输入您想要搜索的房型..." type="text" required />
         <mt-button type="btn btn-warning" @click="search">搜索房型</mt-button>
-      </form>
+      </form> -->
     </div>
     <div
       v-for="(item,i) of list"
